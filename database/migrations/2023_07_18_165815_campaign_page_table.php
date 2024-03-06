@@ -3,7 +3,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CampaignPageTable extends Migration
+class CampaignPageNewTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CampaignPageTable extends Migration
     public function up()
     {
         //
-        Schema::create('CampaignPageTables', function (Blueprint $table) {
+        Schema::create('CampaignPageNewTables', function (Blueprint $table) {
             $table->id();
             $table->string('header')->nullable();
             $table->text('media')->nullable();
@@ -31,7 +31,7 @@ class CampaignPageTable extends Migration
     public function down()
     {
         //
-        Schema::dropIfExists('CampaignPageTables');
+        Schema::dropIfExists('CampaignPageNewTables');
     }
 }
 
