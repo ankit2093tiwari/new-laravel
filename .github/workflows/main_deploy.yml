@@ -63,4 +63,4 @@ jobs:
           app-name: 'KindnessBackend'
           slot-name: 'production'
           publish-profile: ${{ secrets.AzureAppService_PublishProfile }}
-          package:     
+          package: .    
