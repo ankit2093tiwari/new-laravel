@@ -30,7 +30,6 @@ class HomePageData extends Migration
             $table->string('job_post_link')->nullable();
             $table->string('promo_video')->nullable();
             $table->string('youtube_status')->nullable();
-            $table->string('youtube_status')->nullable();
             $table->boolean('youtube_status_promo')->nullable();
             $table->boolean('youtube_status_middle')->nullable();
             $table->string('media_type_middle')->nullable();
